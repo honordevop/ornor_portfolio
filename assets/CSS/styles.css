@@ -510,12 +510,16 @@ img{
 }
 
 .skills__bar{
-    background-color: var(--first-color-lighter);
+    background-color: var(--body-color);
 }
 
 .skills__percentage{
     display: block;
-    background-color: var(--first-color);
+    background-color: var(--body-color);
+}
+
+.skills__number{
+    color: var(--body-color);
 }
 
 .skills__html{
@@ -860,7 +864,7 @@ img{
 }
 
 .testimonial__icon-star{
-    color: var(--first-color);
+    color: var(--body-color);
 }
 
 .swiper-container .swiper-pagination-testimonial{
