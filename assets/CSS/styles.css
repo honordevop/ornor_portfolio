@@ -1312,7 +1312,9 @@ img{
     padding: 10px;
     margin: 0 auto;
     border-radius: 8px;
-    /* border: 1px solid red; */
+    font-weight: bold;
+    padding-top: 1rem;
+    font-size: 14px;
 }
 #status.success {
 background-color: rgb(87, 110, 224);
