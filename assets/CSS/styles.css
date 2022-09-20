@@ -125,6 +125,7 @@ body{
 
 h1,h2,h3,h4{
     color: var(--title-color);
+    /* color: white; */
     font-weight: var(--font-semi-bold);
 }
 
@@ -147,6 +148,7 @@ img{
 
 .section__title{
     font-size: var(--h1-font-size);
+    /* color: #FFF; */
 }
 
 .section__subtitle{
@@ -505,6 +507,7 @@ img{
 
 .skills__bar,
 .skills__percentage{
+    display: none; /* added to remove skills_percentage bar */
     height: 5px;
     border-radius: .25rem;
 }
@@ -702,9 +705,14 @@ img{
 
 .services__modal-content{
     position: relative;
-    background-color: var(--container-color);
+    background-color: white;
+    /* background-color: var(--container-color); */
     padding: 1.5rem;
     border-radius: .5rem;
+}
+
+.services_modal_color{
+    /* color: var(--first-color) !important; */
 }
 
 .services__modal-services{
@@ -719,6 +727,7 @@ img{
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1-5);
+    color: black;
 }
 
 .services__modal-close{
